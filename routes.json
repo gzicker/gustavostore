@@ -1,0 +1,38 @@
+{
+  "/about-us": {
+    "handler": "vtex.render-server/render",
+    "headers": {
+      "x-vtex-render-domain": "store",
+      "x-vtex-render-path-id": "/about-us"
+    },
+    "path": "/about-us",
+    "public": true,
+    "rootOnly": true,
+    "version": "0.0.4-beta.0",
+    "releasedAt": 1692105947279
+  },
+  "/faq": {
+    "handler": "vtex.render-server/render",
+    "headers": {
+      "x-vtex-render-domain": "store",
+      "x-vtex-render-path-id": "/faq"
+    },
+    "path": "/faq",
+    "public": true,
+    "rootOnly": true,
+    "version": "0.0.4-beta.0",
+    "releasedAt": 1692105947279
+  },
+  "/contact-us": {
+    "handler": "vtex.render-server/render",
+    "headers": {
+      "x-vtex-render-domain": "store",
+      "x-vtex-render-path-id": "/contact-us"
+    },
+    "path": "/contact-us",
+    "public": true,
+    "rootOnly": true,
+    "version": "0.0.4-beta.0",
+    "releasedAt": 1692105947279
+  }
+}
